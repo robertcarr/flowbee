@@ -16,7 +16,7 @@ OR
 
 ./flowbee.py --user <user> --token <apitoken> "message"
 
-`
+```
 Usage: flowbee.py [options] message
 
 Options:
@@ -25,4 +25,4 @@ Options:
   -t TOKEN, --token=TOKEN
                         Flow API token or ENV['FLOW_TOKEN']
   --tags=TAGS           Optional tags to append to message
-`
+```
