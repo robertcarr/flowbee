@@ -7,14 +7,19 @@ USAGE
 =======
 
 with ENV variables
+```
 export FLOW_USER=user to post as
 export FLOW_TOKEN=API Token for specific flow
 
 ./flowbee.py "message"
+```
 
 OR
 
+```
 ./flowbee.py --user <user> --token <apitoken> "message"
+```
+
 
 ```
 Usage: flowbee.py [options] message
