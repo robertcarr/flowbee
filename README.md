@@ -16,3 +16,13 @@ OR
 
 ./flowbee.py --user <user> --token <apitoken> "message"
 
+`
+Usage: flowbee.py [options] message
+
+Options:
+  -h, --help            show this help message and exit
+  -u USER, --user=USER  User name to send as or ENV['FLOW_USER']
+  -t TOKEN, --token=TOKEN
+                        Flow API token or ENV['FLOW_TOKEN']
+  --tags=TAGS           Optional tags to append to message
+`
